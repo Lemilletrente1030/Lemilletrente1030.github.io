@@ -1,0 +1,303 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu {
+    background: #3498db;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-menu .logo img {
+    max-height: 40px; /* Increase the max height for a larger logo */
+}
+.top-menu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.top-menu nav li {
+    margin-right: 20px;
+}
+
+.top-menu nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Adding transition for smoother hover effect */
+}
+
+.top-menu nav a:hover {
+    color: #2c5d69; /* Change the color on hover */
+}
+
+.main-container {
+    position: relative;
+}
+
+.background-image {
+    background: url('download.jpg') center/cover no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central-box {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 800px; /* Set a maximum width for the central box */
+    margin: 0 auto; /* Center the box within the main container */
+}
+
+.central-box h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.central-box p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+.options .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: background-color 0.3s ease; /* Adding transition for smoother hover effect */
+}
+
+.options .btn:hover {
+    background-color: rgb(179, 205, 222);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Existing styles remain unchanged */
+
+.clinic-description {
+    background: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+.clinic-box {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.transition-area {
+    background: #3498db;
+    height: 100px; /* Adjust the height of the transition area as needed */
+}
+
+.clinic-description h3 {
+    color: #3498db;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.clinic-description h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.clinic-description p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Existing styles remain unchanged */
+
+/* Existing styles remain unchanged */
+
+.service-details {
+    text-align: center;
+}
+
+.our-services {
+    background: #3498db;
+    padding: 40px;
+    text-align: center;
+}
+
+.service-box {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column; /* Set to column to stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.service-box h2,
+.service-box p {
+    text-align: center; /* Center the text within the available space */
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-around; /* Adjust as needed */
+    margin-top: 20px; /* Add margin to separate from heading and subheading */
+}
+
+.service-item {
+    flex: 0 0 calc(25% - 20px); /* Set 25% width for each service item with spacing */
+    max-width: calc(25% - 20px); /* Set maximum width for each service item with spacing */
+    margin: 0 10px 20px; /* Adjust margin as needed for spacing */
+}
+
+.service-item img {
+    width: 100%;
+    height: auto; /* Auto height to maintain aspect ratio */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.service-details {
+    flex: 1;
+    padding: 0 20px; /* Add spacing between image and details */
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.service-item p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.view-more-btn {
+    background: #2980b9;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-more-btn:hover {
+    background: #2574a9;
+}
+
+
+
+/* Existing styles remain unchanged */
+/* Existing styles remain unchanged */
+
+.booking-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.booking-image-container,
+.booking-form-container {
+    flex: 1;
+}
+
+.booking-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.booking-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.booking-form {
+    padding: 40px;
+    text-align: justify;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.booking-form h2 {
+    font-size: 25px; /* Reduce font size for the title */
+    margin-bottom: 8px; /* Reduce margin for title */
+}
+
+.booking-form p {
+    font-size: 18px; /* Reduce font size for the subheading */
+    margin-bottom: 16px; /* Reduce margin for subheading */
+}
+
+form {
+    max-width: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px; /* Reduce margin for labels */
+    font-size: 14px; /* Reduce font size for labels */
+}
+
+input {
+    width: 100%;
+    padding: 6px; /* Reduce padding for input fields */
+    margin-bottom: 12px; /* Reduce margin for input fields */
+    font-size: 12px; /* Reduce font size for input fields */
+}
+
+.book-btn {
+    background: #3498db;
+    color: #fff;
+    padding: 8px 16px; /* Reduce padding for the button */
+    font-size: 20px; /* Reduce font size for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    background: #2574a9;
+}
